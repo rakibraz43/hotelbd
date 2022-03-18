@@ -1,0 +1,389 @@
+/**global css****/
+ *{
+ 	margin: 0;
+ 	padding: 0;
+ }
+ @media(min-width: 1140px){.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1140px !important;
+} }
+.body{
+font-family: 'Open Sans', sans-serif;;
+}
+.header{
+	width: 100%;
+}
+a{
+	text-decoration: none;
+}
+/**top header css****/
+
+.top-header{
+	background: #EAEFFF;
+}
+.top-header .left span{
+	color: #fe5c24;
+	font-size: 14px;
+	margin-right: 16px;
+	}
+.top-header .left a{
+	color: #0c3e72;
+	font-size: 14px;
+	margin: 0px 16px;
+
+}
+.top-header .right span{
+	color: #0c3e72;}
+
+
+
+
+.top-header .right i{
+	color: #fe5c24;
+	margin-right: 6px;
+}
+.top-header .right ul li a i{
+	color: #0c3e72;
+	font-size: 14px;
+	margin: 0 15px;
+}
+.custom-btn{
+	background: #fe5c24;
+	padding: 16px 32px;
+	border: none;
+	color: white;
+	font-size: 16px;
+}
+.custom-btn:hover{
+	background: #007bff;
+}
+
+.nav-link{
+	color: #0c3e72 !important;
+}
+.nav-link:hover{
+	color: #fe5c24 !important;
+}
+.nav-item{
+margin: 0 18px;
+}
+/**banner section css***
+ * */
+#banner{width: 100%;
+	height: 100vh;
+	background-image:url('../img/banner_bg.png') ;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.b-content{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.b-content h1{
+	font-size: 120px;
+	font-weight: 600;
+	color: white;
+}
+.b-content p{
+	font-size: 24px;
+	font-weight: 400;
+	color: white;
+}
+.banner-btn{
+	background: #2493e0;
+	padding: 23px 79px;
+	border: none;
+	color: white;
+	font-size: 16px;
+	margin-top: 60px;
+}
+.banner-btn:hover{
+	background: #fe5c24;}
+/*********************/
+.search-wrapper{
+	margin-top: -72px;
+}
+
+
+
+
+.bhj
+{
+	margin-bottom: 50px;
+}
+
+
+.nc_select {
+    padding: 13px 30px !important;
+    font-size: 14px;
+    color: #007bff;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #007bff;
+    background-color: #fff;
+}
+
+
+
+
+
+.trigger-itme ul li{
+	padding: 24px ;
+	position: relative;
+}
+.trigger-itme{
+	background-color: white;
+	
+}
+.s-form{
+	background-color: #fff;
+    box-shadow: 0 10px 40px 0 rgb(221 221 221 / 30%);
+    padding: 40px;
+}
+
+.line{
+	height: 2px;
+	width: 100%;
+	background-color: #2493e0;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.s-form select{padding: 13px 30px !important;
+    font-size: 14px;
+    color: #007bff;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #007bff;
+    background-color: #fff;
+
+}
+
+.f-btn{
+    background: #fe5c24;
+    
+    border: none;
+    color: white;
+    font-size: 16px;
+padding: 13px 32px !important;
+}
+.f-btn:hover{
+	background: #007bff;
+}
+  
+.f-item{
+	margin: 8px 8px;
+} 
+   
+
+/*********place section************/
+#place{
+	width: 100%;
+	padding: 100px 0;
+}
+.section-title{
+	margin-bottom: 32px;
+	text-align: center;
+}
+
+.section-title h2{
+	font-size: 46px;
+    color: #0c3e72;
+    line-height: 1.1;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 26px;
+}
+
+.section-title p{
+    color: #777;
+    font-weight: 400;
+    font-size: 16px;
+}
+.p-item{
+	position: relative;
+
+}
+.p-item::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: #0c3e72;
+	opacity: 0;
+	transition: 0.5s;
+}
+.p-item:hover::before{
+	opacity: 0.75 ;
+	transition: 0.5s ;
+}
+.p-cntn a{
+display: inline-block;
+    padding: 10px 25px;
+    color: #fff;
+    background-color: #fe5c24;
+    text-transform: capitalize;
+    margin-bottom: 14px;
+
+}
+.p-cntn h3{    font-size: 30px;
+    line-height: 36px;
+    color: #fff;
+
+}
+.p-cntn p{
+	color: #fff;
+	font-size: 16px;
+	margin-bottom: 16px;
+}
+
+.p-cntn span{
+	color: white;
+
+}
+.p-cntn span i{
+color: #fe5c24;
+}
+.p-cntn{
+	position: absolute;
+	bottom:40px ;
+	left: 40px;
+	opacity: 0;
+	transition: 0.5s;
+}
+.p-item:hover .p-cntn{
+	opacity: 1;
+	transform: translateY(-10px);
+	transition: 0.5s;
+}
+
+ .btn_1{
+ 	text-align: center;
+ 	margin-top: 50px;
+ }
+
+ /* Slider Section CSS */
+#Event-slider{
+	width: 100%;
+	padding: 120px 0px;
+	background-image: url(../img/ogg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.slider-box
+ {
+	background-color: white;
+	padding: 60px;
+}
+.slider-box h6{ color: #fe5c24;
+    margin-bottom: 18px;
+    font-size: 16px;
+
+}
+.slider-box h3{
+	font-weight: 700;
+    margin-bottom: 25px;
+    color: #0c3e72; 
+    font-size: 30px;
+}
+.slider-box p span{
+color: #0c3e72;}
+.fa-star{
+	color: #ffc962;
+
+}
+#Event-slider .owl-dots{
+	display: none;
+}
+
+#Event-slider .owl-prev{
+	position: absolute;
+	color: #fe5c24;
+	left: 0;
+	background: rgb(255, 255, 255,0.5);
+	width: 60px;
+	height: 60px;
+	font-size: 32px;
+	border-radius: 100%;
+	text-align: center;
+	top: 50%;
+}
+#Event-slider .owl-next{
+	position: absolute;
+	color: #fe5c24;
+	right: -75px;
+	background: rgb(255, 255, 255,0.5);
+	width: 60px;
+	height: 60px;
+	font-size: 32px;
+	border-radius: 100%;
+	text-align: center;
+	top: 50%;
+}
+/*********** <!-- hotel item --> **************/
+#popolar-hotel{
+	width: 100%;
+	padding: 120px;
+}
+.hotel-title{
+	text-align: center;
+}
+ .hotel-title h2 {
+    font-size: 46px;
+    color: #0c3e72;
+    line-height: 1.1;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 26px;
+}
+.hotel-title p {
+    color: #777;
+    font-weight: 400;
+}
+.hotel-baner{
+margin-bottom: 24px;	
+}
+#popolar-hotel h3{
+	color:#0c3e72;
+	font-size: 24px;
+	margin-bottom: 21px;
+}
+.place-review{
+color: #212529;
+margin-bottom: 8px !important;
+}
+#poplar-hotel span p{
+margin-bottom: 21px;
+color: #212529;
+}
+.hotel-link a i {
+	background:rgb(255, 255, 255,0.5);
+	height: 50px;
+	width: 50px;
+	color: white;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 100%;
+
+}
+.hotel-link div a i{
+	background-color:rgb(255, 122, 75,7)!important;
+}
+.hotel-baner {
+	position: relative;
+}
+.hotel-link{
+	position: absolute;
+    right: 0;
+   bottom: 0;
+    
+} 
